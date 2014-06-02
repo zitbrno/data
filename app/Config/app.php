@@ -10,7 +10,7 @@ switch (Env::getPlatform()) {
 
 			'baseURL'  => 'http://noob.local/',
 			'apiURL'   => 'http://noob.local/',
-			'timezone' => 'UTC',
+			'timezone' => 'Europe/Prague',
 
 			'slim' => array(
 				'mode'  => 'development',
@@ -30,7 +30,7 @@ switch (Env::getPlatform()) {
 
 			'baseURL'  => 'http://www.example.com/',
 			'apiURL'   => 'http://www.example.com/',
-			'timezone' => 'UTC',
+			'timezone' => 'Europe/Prague',
 
 			'slim' => array(
 				'mode'  => 'production',
