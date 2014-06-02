@@ -8,8 +8,8 @@ switch (Env::getPlatform()) {
 
 		return array(
 
-			'baseURL'  => 'http://noob.local/',
-			'apiURL'   => 'http://noob.local/',
+			'baseURL'  => 'http://zitbrnodata.local/',
+			'apiURL'   => 'http://zitbrnodata.local/',
 			'timezone' => 'Europe/Prague',
 
 			'slim' => array(
@@ -18,7 +18,7 @@ switch (Env::getPlatform()) {
 			),
 
 			'pagination' => array(
-				'pageIdent' => 'page',
+				'pageIdent' => 'stranka',
 			),
 
 		);
@@ -28,8 +28,8 @@ switch (Env::getPlatform()) {
 
 		return array(
 
-			'baseURL'  => 'http://www.example.com/',
-			'apiURL'   => 'http://www.example.com/',
+			'baseURL'  => 'http://data.zitbrno.cz/',
+			'apiURL'   => 'http://data.zitbrno.cz/',
 			'timezone' => 'Europe/Prague',
 
 			'slim' => array(
@@ -38,7 +38,7 @@ switch (Env::getPlatform()) {
 			),
 
 			'pagination' => array(
-				'pageIdent' => 'page',
+				'pageIdent' => 'stranka',
 			),
 
 		);
